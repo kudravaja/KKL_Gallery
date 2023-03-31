@@ -1,11 +1,5 @@
   // section1
 
-//  $(document).ready(function() {
-//     let textbackgroundtop = $('<div class="galleryscroll"> <div class="text1"> <h1> text </h1> </div> <div class="text2"> <h1> text2 </h1> </div> <div class="text3"> <h1> text3 </h1> </div> </div>');
-//     $('#one').remove(textbackgroundtop);
-// });
-
-
 $(document).ready(function() {
   let y;
   $(window).on('scroll', function() {
@@ -36,9 +30,6 @@ $(document).ready(function() {
     if (document.documentElement.scrollTop <0.5*window.innerHeight) {
       document.getElementById("myP").className = "ttop";
     }
-    // else if (document.documentElement.scrollTop <1.0*window.innerHeight) {
-    //   document.getElementById("myP").className = "ttop2";
-    // }
     else if (document.documentElement.scrollTop <1.5*window.innerHeight) {
       document.getElementById("myP").className = "t";
     }
@@ -52,25 +43,7 @@ $(document).ready(function() {
       document.getElementById("myP").classList.remove("tsecond2","tsecond","t","ttop");
     }
 
-// else if (document.documentElement.scrollTop <3.2*window.innerHeight) {
-//   document.getElementById("image1").className = "image1";
-// }
-// else if (document.documentElement.scrollTop <3.7*window.innerHeight) {
-//   document.getElementById("image2").className = "image2";
-// }
-// else if (document.documentElement.scrollTop <3.9*window.innerHeight) {
-//   document.getElementById("image3").className = "image3";
-// }
-
   }
-
-
-    // else if (document.documentElement.scrollTop <6*window.innerHeight) {
-    //   document.getElementById("image1").classList.remove("image1");
-    // }
-  // }
-
-
 
   // section2
 
@@ -78,7 +51,7 @@ $(window).on("scroll", () => {
 let scroll_height = $(window).scrollTop();
 let vw_height = parseInt($(window).height()) * 2.40;
 let start_point = parseInt(scroll_height - vw_height);
-  // console.log(scroll_height, vw_height, start_point);
+
   if (scroll_height => vw_height) {
     let blur = start_point * (0.00025) +'vw'
     let x = start_point * (-0.155/2.3) + 'vw'
@@ -115,7 +88,7 @@ let start_point = parseInt(scroll_height - vw_height);
  let scroll_height = $(window).scrollTop();
  let vw_height = parseInt($(window).height()) * 2.43;
  let start_point = parseInt(scroll_height - vw_height);
-   // console.log(scroll_height, vw_height, start_point);
+
    if (scroll_height => vw_height) {
      let opacity = start_point
 
@@ -159,7 +132,7 @@ $(window).on("scroll", () => {
   let scroll_height = $(window).scrollTop();
   let vw_height = parseInt($(window).height()) * 2.51;
   let start_point = parseInt(scroll_height - vw_height);
-    // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
       let opacity = start_point
 
@@ -209,7 +182,7 @@ $(window).on("scroll", () => {
   let scroll_height = $(window).scrollTop();
   let vw_height = parseInt($(window).height()) * 2.59;
   let start_point = parseInt(scroll_height - vw_height);
-    // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
       let opacity = start_point
 
@@ -250,7 +223,7 @@ $(window).on("scroll", () => {
    let scroll_height = $(window).scrollTop();
    let vw_height = parseInt($(window).height()) * 2.67;
    let start_point = parseInt(scroll_height - vw_height);
-     // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
        let opacity = start_point
 
@@ -304,7 +277,7 @@ $(window).on("scroll", () => {
     let scroll_height = $(window).scrollTop();
     let vw_height = parseInt($(window).height()) * 2.75;
     let start_point = parseInt(scroll_height - vw_height);
-      // console.log(scroll_height, vw_height, start_point);
+
       if (scroll_height => vw_height) {
         let opacity = start_point
 
@@ -354,7 +327,7 @@ $(window).on("scroll", () => {
  let scroll_height = $(window).scrollTop();
  let vw_height = parseInt($(window).height()) * 2.83;
  let start_point = parseInt(scroll_height - vw_height);
-   // console.log(scroll_height, vw_height, start_point);
+
    if (scroll_height => vw_height) {
      let opacity = start_point
 
@@ -403,7 +376,7 @@ $(window).on("scroll", () => {
   let scroll_height = $(window).scrollTop();
   let vw_height = parseInt($(window).height()) * 2.91;
   let start_point = parseInt(scroll_height - vw_height);
-    // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
       let opacity = start_point
 
@@ -440,7 +413,7 @@ $(window).on("scroll", () => {
    let scroll_height = $(window).scrollTop();
    let vw_height = parseInt($(window).height()) * 2.99;
    let start_point = parseInt(scroll_height - vw_height);
-     // console.log(scroll_height, vw_height, start_point);
+
      if (scroll_height => vw_height) {
        let opacity = start_point
        $('.image28',).css('opacity', opacity - 30);
@@ -486,7 +459,7 @@ $(window).on("scroll", () => {
   let scroll_height = $(window).scrollTop();
   let vw_height = parseInt($(window).height()) * 3.07;
   let start_point = parseInt(scroll_height - vw_height);
-    // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
       let opacity = start_point
 
@@ -531,7 +504,7 @@ $(window).on("scroll", () => {
    let scroll_height = $(window).scrollTop();
    let vw_height = parseInt($(window).height()) * 3.15;
    let start_point = parseInt(scroll_height - vw_height);
-     // console.log(scroll_height, vw_height, start_point);
+
      if (scroll_height => vw_height) {
        let opacity = start_point
 
@@ -572,7 +545,7 @@ $(window).on("scroll", () => {
     let scroll_height = $(window).scrollTop();
     let vw_height = parseInt($(window).height()) * 3.23;
     let start_point = parseInt(scroll_height - vw_height);
-       // console.log(scroll_height, vw_height, start_point);
+
       if (scroll_height => vw_height) {
          let opacity = start_point
 
@@ -613,7 +586,7 @@ $(window).on("scroll", () => {
   let scroll_height = $(window).scrollTop();
   let vw_height = parseInt($(window).height()) * 3.31;
   let start_point = parseInt(scroll_height - vw_height);
-   // console.log(scroll_height, vw_height, start_point);
+
    if (scroll_height => vw_height) {
            let opacity = start_point
 
@@ -666,7 +639,7 @@ $(window).on("scroll", () => {
     let scroll_height = $(window).scrollTop();
     let vw_height = parseInt($(window).height()) * 3.39;
     let start_point = parseInt(scroll_height - vw_height);
-           // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
     let opacity = start_point
 
@@ -716,7 +689,7 @@ $(window).on("scroll", () => {
     let scroll_height = $(window).scrollTop();
     let vw_height = parseInt($(window).height()) * 3.45;
     let start_point = parseInt(scroll_height - vw_height);
-           // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
       let opacity = start_point
       $('.image48').css('opacity', opacity - 30);
@@ -757,7 +730,7 @@ $(window).on("scroll", () => {
     let scroll_height = $(window).scrollTop();
     let vw_height = parseInt($(window).height()) * 3.53;
     let start_point = parseInt(scroll_height - vw_height);
-           // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
       let opacity = start_point
       $('.image52').css('opacity', opacity - 30);
@@ -807,7 +780,7 @@ $(window).on("scroll", () => {
       let scroll_height = $(window).scrollTop();
       let vw_height = parseInt($(window).height()) * 3.61;
       let start_point = parseInt(scroll_height - vw_height);
-             // console.log(scroll_height, vw_height, start_point);
+
       if (scroll_height => vw_height) {
                let opacity = start_point
 
@@ -861,7 +834,7 @@ $(window).on("scroll", () => {
     let scroll_height = $(window).scrollTop();
     let vw_height = parseInt($(window).height()) * 3.69;
     let start_point = parseInt(scroll_height - vw_height);
-           // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
              let opacity = start_point
 
@@ -877,7 +850,7 @@ $(window).on("scroll", () => {
 let scroll_height = $(window).scrollTop();
 let vw_height = parseInt($(window).height()) * 3.74;
 let start_point = parseInt(scroll_height - vw_height);
-  // console.log(scroll_height, vw_height, start_point);
+
   if (scroll_height => vw_height) {
     let blur = start_point * (0.00025) +'vw'
     let x1 = start_point * (-0.15/2.3) + 'vw'
@@ -900,7 +873,7 @@ let start_point = parseInt(scroll_height - vw_height);
  let scroll_height = $(window).scrollTop();
  let vw_height = parseInt($(window).height()) * 3.77;
  let start_point = parseInt(scroll_height - vw_height);
-   // console.log(scroll_height, vw_height, start_point);
+
    if (scroll_height => vw_height) {
      let opacity = start_point
 
@@ -946,7 +919,7 @@ $(window).on("scroll", () => {
   let scroll_height = $(window).scrollTop();
   let vw_height = parseInt($(window).height()) * 3.85;
   let start_point = parseInt(scroll_height - vw_height);
-    // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
       let opacity = start_point
 
@@ -990,7 +963,7 @@ $(window).on("scroll", () => {
   let scroll_height = $(window).scrollTop();
   let vw_height = parseInt($(window).height()) * 3.93;
   let start_point = parseInt(scroll_height - vw_height);
-    // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
       let opacity = start_point
 
@@ -1085,7 +1058,7 @@ $(window).on("scroll", () => {
     let scroll_height = $(window).scrollTop();
     let vw_height = parseInt($(window).height()) * 4.09;
     let start_point = parseInt(scroll_height - vw_height);
-      // console.log(scroll_height, vw_height, start_point);
+
       if (scroll_height => vw_height) {
         let opacity = start_point
 
@@ -1129,7 +1102,7 @@ $(window).on("scroll", () => {
  let scroll_height = $(window).scrollTop();
  let vw_height = parseInt($(window).height()) * 4.17;
  let start_point = parseInt(scroll_height - vw_height);
-   // console.log(scroll_height, vw_height, start_point);
+
    if (scroll_height => vw_height) {
      let opacity = start_point
 
@@ -1182,7 +1155,7 @@ $(window).on("scroll", () => {
   let scroll_height = $(window).scrollTop();
   let vw_height = parseInt($(window).height()) * 4.23;
   let start_point = parseInt(scroll_height - vw_height);
-   // console.log(scroll_height, vw_height, start_point);
+
    if (scroll_height => vw_height) {
            let opacity = start_point
 
@@ -1249,7 +1222,7 @@ $(window).on("scroll", () => {
     let scroll_height = $(window).scrollTop();
     let vw_height = parseInt($(window).height()) * 4.31;
     let start_point = parseInt(scroll_height - vw_height);
-           // console.log(scroll_height, vw_height, start_point);
+
     if (scroll_height => vw_height) {
     let opacity = start_point
 
@@ -1267,7 +1240,7 @@ $(window).on("scroll", () => {
 let scroll_height = $(window).scrollTop();
 let vw_height = parseInt($(window).height()) * 2.27;
 let start_point = parseInt(scroll_height - vw_height);
-  // console.log(scroll_height, vw_height, start_point);
+
   if (scroll_height => vw_height) {
     let blur = start_point * (0.00025) +'vw'
     let x = start_point * (-0.15/2.3) + 'vw'
@@ -1320,7 +1293,7 @@ let start_point = parseInt(scroll_height - vw_height);
  let scroll_height = $(window).scrollTop();
  let vw_height = parseInt($(window).height()) * 4.5;
  let start_point = parseInt(scroll_height - vw_height);
-   // console.log(scroll_height, vw_height, start_point);
+
    if (scroll_height > vw_height) {
      let scale = parseInt(start_point) * (0.01)
      $('.ellipse').css('transform', `scale3d(${scale},${scale},${scale})`);
@@ -1340,7 +1313,7 @@ let start_point = parseInt(scroll_height - vw_height);
 // let scroll_height = $(window).scrollTop();
 // let vw_height = parseInt($(window).height()) * 4.5;
 // let start_point = parseInt(scroll_height - vw_height);
-//   // console.log(scroll_height, vw_height, start_point);
+//
 //   if (scroll_height > vw_height) {
 //     $(".three").css({
 //       backgroundSize: (start_point + scroll_height/10) + 'vw'
@@ -1352,7 +1325,7 @@ $(window).on("scroll", () => {
 let scroll_height = $(window).scrollTop();
 let vw_height = parseInt($(window).height()) * 6.4;
 let start_point = parseInt(scroll_height - vw_height);
-  // console.log(scroll_height, vw_height, start_point);
+
   if (scroll_height > vw_height) {
     let scale = parseInt(start_point) * (0.1)
     $('.ellipsewhite').css('transform', `scale3d(${scale},${scale},${scale})`);
@@ -1373,7 +1346,7 @@ $(window).on("scroll", () => {
 let scroll_height = $(window).scrollTop();
 let vw_height = parseInt($(window).height()) * 5.3;
 let start_point = parseInt(scroll_height - vw_height);
-  // console.log(scroll_height, vw_height, start_point);
+
   if (scroll_height > vw_height) {
     let translate = parseInt(start_point) * (-0.45) + 'vw'
     $('.text2').css('transform', `translateX(${translate})`);
@@ -1383,7 +1356,7 @@ $(window).on("scroll", () => {
 let scroll_height = $(window).scrollTop();
 let vw_height = parseInt($(window).height()) * 5.35;
 let start_point = parseInt(scroll_height - vw_height);
-  // console.log(scroll_height, vw_height, start_point);
+
   if (scroll_height > vw_height) {
     let translate = parseInt(start_point) * (-0.45) + 'vw'
     $('.text3').css('transform', `translateX(${translate})`);
@@ -1393,104 +1366,14 @@ $(window).on("scroll", () => {
 let scroll_height = $(window).scrollTop();
 let vw_height = parseInt($(window).height()) * 5.4;
 let start_point = parseInt(scroll_height - vw_height);
-  // console.log(scroll_height, vw_height, start_point);
+
   if (scroll_height > vw_height) {
     let translate = parseInt(start_point) * (-0.45) + 'vw'
     $('.text4').css('transform', `translateX(${translate})`);
 }
 });
 
-  // $(document).ready(function() {
-  //
-  // 	$(".image3").click( function () {
-  //     // let galleryscroll = $(".galleryscroll");
-  //     $('.body').addClass(".galleryscroll");
-  //     // setTimeout( function() {galleryscroll.remove(); }, 500);
-  //   });
-  // });
 
-  // $(document).ready(function() {
-  //  	$('.image3').click( function () {
-  //     let slider = `<div class = "slider">
-  //       <div class="image101">
-  //           <div id="chicken"></div>
-  //       </div>
-  //       <div class="image102">
-  //         <div id="chicken2"></div>
-  //       </div>
-  //       <div class="image103">
-  //         <div id="chicken3"></div>
-  //       </div>
-  //       <div class="image104">
-  //         <div id="chicken4"><p>key</p></div>
-  //       </div>
-  //       <div class="image123">
-  //         <div id="chicken9"></div>
-  //       </div>
-  //       <div class="image105">
-  //         <div id="chicken5"></div>
-  //       </div>
-  //       <div class="image106">
-  //         <div id="chicken6"></div>
-  //       </div>
-  //       <div class="image107">
-  //           <span>If you click on me, I will disappear.</span>
-  //           <span>Click me away!</span>
-  //           <span>Click me too!</span>
-  //       </div>
-  //       <div class="image108">
-  //         -
-  //       </div>
-  //       <div class="image109">
-  //         <ul id="sortable">
-  //             <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/1.svg" alt="chicken"></li>
-  //             <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/2.svg" alt="chicken"></li>
-  //             <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/3.svg" alt="chicken"></li>
-  //       </div>
-  //       <div class="image120">
-  //         <label for="colorpicker">Color Picker:</label>
-  //        <input type="color" id="colorpicker" value="#0000ff">
-  //       </div>
-  //       <div class="image121">
-  //         -
-  //       </div>
-  //       <div class="image122">
-  //         <div id="chicken8"></div>
-  //       </div>
-  //       <div class="image124">
-  //         <div id="chicken10"></div>
-  //       </div>
-  //       <div class="image125">
-  //         <div id="chicken11"></div>
-  //       </div>
-  //       <div class="image126">
-  //         <div id="chicken12"></div>
-  //       </div>
-  //     </div>`
-  //     $('#one').append('<div class="galleryscroll"></div>');
-  //     $('.galleryscroll').append(slider);
-  //   });
-  // // });
-  // $('.image3').click( function () {
-  //   $('.gg').click(function (){
-  //     $('.galleryscroll').remove();
-  //   });
-  // });
-  // // $(document).ready(function() {
-  //
-  // });
-
-  // function slider() {
-  //   document.getElementById("slider").style.display = "block";
-  // }
-  // function slider() {
-  //   var x = document.getElementById("slider");
-  //   if (x.style.display === "none") {
-  //     x.style.display = "block";
-  //   } else {
-  //     x.style.display = "none";
-  //   }
-  // }
   $(window).on('scroll', function() {
     if ($(window).scrollTop() > 0.5*window.innerHeight){
       $('.text').css("display", "none");
@@ -1498,51 +1381,7 @@ let start_point = parseInt(scroll_height - vw_height);
       $('.text').css("display", "block");
     }
 
-    // if ($(window).scrollTop() < 0.5*window.innerHeight){
-    //   $('.text').append();
-    // }
  });
-
-  //
-  // // $(document).ready(function(){
-  // //   $(".gg").click(function(){
-  // //     $('#one').remove("galleryscroll");
-  // //   });
-  // // });
-  //
-  //   // $(document).ready(function() {
-  //   //   $('.slider').slick({
-  //   //     infinite: true,
-  //   //     slidesToShow: 3,
-  //   //     slidesToScroll: 4
-  //   //   });
-  //   // });
-  //
-  //
-  // // function setup() {
-  // //   createCanvas(1000, 1000);
-  // // }
-  // //
-  // // function draw() {
-  // //   if (mouseIsPressed) {
-  // //     fill(0);
-  // //   } else {
-  // //     fill(255);
-  // //   }
-  // //   ellipse(mouseX, mouseY, 50, 50);
-  // // }
-  //   // const img = document.querySelector('img');
-  //   //
-  //   // window.addEventListener('scroll', () => {
-  //   //   const current = window.scrollTop;
-  //   //   img.css.clipPath = 'circle(${current + 10}vw at center)';
-  //   // });
-  //   //
-  //   // window.addEventListener('scroll', () => {
-  //   //   const current = window.scrollTop();
-  //   //   img.css.clipPath = ('circle', 100 +  parseInt(x / 20) + 'vw');
-  //   // });
-  //   //
 });
 // $( "image3" ).click(function() {
 //   if ($('.two').hasClass('image3')) {
@@ -1594,9 +1433,107 @@ $(document).ready(function() {
 });
 
 
-
-document.getElementById("image3").onclick = function() {slider()};
-document.getElementById("image4").onclick = function() {slider()};
+document.getElementsByClassName("image1").onclick = function() {slider()};
+document.getElementsByClassName("image2").onclick = function() {slider()};
+document.getElementsByClassName("image3").onclick = function() {slider()};
+document.getElementsByClassName("image4").onclick = function() {slider()};
+document.getElementsByClassName("image5").onclick = function() {slider()};
+document.getElementsByClassName("image6").onclick = function() {slider()};
+document.getElementsByClassName("image7").onclick = function() {slider()};
+document.getElementsByClassName("image8").onclick = function() {slider()};
+document.getElementsByClassName("image9").onclick = function() {slider()};
+document.getElementsByClassName("image10").onclick = function() {slider()};
+document.getElementsByClassName("image11").onclick = function() {slider()};
+document.getElementsByClassName("image12").onclick = function() {slider()};
+document.getElementsByClassName("image13").onclick = function() {slider()};
+document.getElementsByClassName("image14").onclick = function() {slider()};
+document.getElementsByClassName("image15").onclick = function() {slider()};
+document.getElementsByClassName("image16").onclick = function() {slider()};
+document.getElementsByClassName("image17").onclick = function() {slider()};
+document.getElementsByClassName("image18").onclick = function() {slider()};
+document.getElementsByClassName("image19").onclick = function() {slider()};
+document.getElementsByClassName("image20").onclick = function() {slider()};
+document.getElementsByClassName("image21").onclick = function() {slider()};
+document.getElementsByClassName("image22").onclick = function() {slider()};
+document.getElementsByClassName("image23").onclick = function() {slider()};
+document.getElementsByClassName("image24").onclick = function() {slider()};
+document.getElementsByClassName("image25").onclick = function() {slider()};
+document.getElementsByClassName("image26").onclick = function() {slider()};
+document.getElementsByClassName("image27").onclick = function() {slider()};
+document.getElementsByClassName("image28").onclick = function() {slider()};
+document.getElementsByClassName("image29").onclick = function() {slider()};
+document.getElementsByClassName("image30").onclick = function() {slider()};
+document.getElementsByClassName("image31").onclick = function() {slider()};
+document.getElementsByClassName("image32").onclick = function() {slider()};
+document.getElementsByClassName("image33").onclick = function() {slider()};
+document.getElementsByClassName("image34").onclick = function() {slider()};
+document.getElementsByClassName("image35").onclick = function() {slider()};
+document.getElementsByClassName("image36").onclick = function() {slider()};
+document.getElementsByClassName("image37").onclick = function() {slider()};
+document.getElementsByClassName("image38").onclick = function() {slider()};
+document.getElementsByClassName("image39").onclick = function() {slider()};
+document.getElementsByClassName("image40").onclick = function() {slider()};
+document.getElementsByClassName("image41").onclick = function() {slider()};
+document.getElementsByClassName("image42").onclick = function() {slider()};
+document.getElementsByClassName("image43").onclick = function() {slider()};
+document.getElementsByClassName("image44").onclick = function() {slider()};
+document.getElementsByClassName("image45").onclick = function() {slider()};
+document.getElementsByClassName("image46").onclick = function() {slider()};
+document.getElementsByClassName("image47").onclick = function() {slider()};
+document.getElementsByClassName("image48").onclick = function() {slider()};
+document.getElementsByClassName("image49").onclick = function() {slider()};
+document.getElementsByClassName("image50").onclick = function() {slider()};
+document.getElementsByClassName("image51").onclick = function() {slider()};
+document.getElementsByClassName("image52").onclick = function() {slider()};
+document.getElementsByClassName("image53").onclick = function() {slider()};
+document.getElementsByClassName("image54").onclick = function() {slider()};
+document.getElementsByClassName("image55").onclick = function() {slider()};
+document.getElementsByClassName("image56").onclick = function() {slider()};
+document.getElementsByClassName("image57").onclick = function() {slider()};
+document.getElementsByClassName("image58").onclick = function() {slider()};
+document.getElementsByClassName("image59").onclick = function() {slider()};
+document.getElementsByClassName("image60").onclick = function() {slider()};
+document.getElementsByClassName("image61").onclick = function() {slider()};
+document.getElementsByClassName("image62").onclick = function() {slider()};
+document.getElementsByClassName("image63").onclick = function() {slider()};
+document.getElementsByClassName("image64").onclick = function() {slider()};
+document.getElementsByClassName("image65").onclick = function() {slider()};
+document.getElementsByClassName("image66").onclick = function() {slider()};
+document.getElementsByClassName("image67").onclick = function() {slider()};
+document.getElementsByClassName("image68").onclick = function() {slider()};
+document.getElementsByClassName("image69").onclick = function() {slider()};
+document.getElementsByClassName("image70").onclick = function() {slider()};
+document.getElementsByClassName("image71").onclick = function() {slider()};
+document.getElementsByClassName("image72").onclick = function() {slider()};
+document.getElementsByClassName("image73").onclick = function() {slider()};
+document.getElementsByClassName("image74").onclick = function() {slider()};
+document.getElementsByClassName("image75").onclick = function() {slider()};
+document.getElementsByClassName("image76").onclick = function() {slider()};
+document.getElementsByClassName("image77").onclick = function() {slider()};
+document.getElementsByClassName("image78").onclick = function() {slider()};
+document.getElementsByClassName("image79").onclick = function() {slider()};
+document.getElementsByClassName("image80").onclick = function() {slider()};
+document.getElementsByClassName("image81").onclick = function() {slider()};
+document.getElementsByClassName("image82").onclick = function() {slider()};
+document.getElementsByClassName("image83").onclick = function() {slider()};
+document.getElementsByClassName("image84").onclick = function() {slider()};
+document.getElementsByClassName("image85").onclick = function() {slider()};
+document.getElementsByClassName("image86").onclick = function() {slider()};
+document.getElementsByClassName("image87").onclick = function() {slider()};
+document.getElementsByClassName("image88").onclick = function() {slider()};
+document.getElementsByClassName("image89").onclick = function() {slider()};
+document.getElementsByClassName("image90").onclick = function() {slider()};
+document.getElementsByClassName("image91").onclick = function() {slider()};
+document.getElementsByClassName("image92").onclick = function() {slider()};
+document.getElementsByClassName("image93").onclick = function() {slider()};
+document.getElementsByClassName("image94").onclick = function() {slider()};
+document.getElementsByClassName("image95").onclick = function() {slider()};
+document.getElementsByClassName("image96").onclick = function() {slider()};
+document.getElementsByClassName("image97").onclick = function() {slider()};
+document.getElementsByClassName("image98").onclick = function() {slider()};
+document.getElementsByClassName("image99").onclick = function() {slider()};
+document.getElementsByClassName("image100").onclick = function() {slider()};
+document.getElementsByClassName("image101").onclick = function() {slider()};
 
 
 function slider() {
@@ -1620,19 +1557,6 @@ function trail() {
   document.getElementById("content").style.display ="flex"
 }
 
-// // });
-// $('.image3').click( function () {
-//   $('.gg').click(function (){
-//     $('.galleryscroll').remove();
-//   });
-// });
-// $(document).ready(function() {
-
-// });
-
-// function slider() {
-//   document.getElementById("slider").style.display = "block";
-// }
 function slide() {
   var x = document.getElementById("slider");
   if (x.style.display === "none") {

@@ -1,4 +1,15 @@
-  .background{
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+body {
+  cursor: url("images/cursor.svg") 16 0,auto;
+  height: 790vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: inherit;
+}
+.background{
     width: 100vw;
     height: 110vh;
     z-index: 2;
@@ -11,11 +22,6 @@
     position: relative;
     height: 200vh;
     background-color: #ffffff;
-    /* background-image: url(images/BackgroundSectiontTwo.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 140vw;
-    background-attachment: fixed; */
   }
 
   a{
@@ -1548,12 +1554,6 @@
     width: 15vw;
     height: 15vw;
   }
-  /* img{
-    transition: 0.8s;
-    align-content: center;
-    height: 40vw;
-    background-color: #ffffff;
-  } */
   li img {
     width: 12vw;
     height: 12vw;
@@ -1946,10 +1946,6 @@
 }
 
 @media screen and (min-width: 50em) {
-	body {
-    z-index: 2;
-		overflow: hidden;
-	}
 	.content {
     z-index: 2;
     color: inherit;
