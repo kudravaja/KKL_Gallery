@@ -1,0 +1,12 @@
+@import 'reset.css';
+@import 'content.css';
+
+@font-face {
+    font-family: PatsySans;
+    src: url(fonts/PatsySans.otf); }
+@font-face {
+    font-family: NeutralBold;
+    src: url(fonts/NeutralFace-Bold.otf); }
+@font-face {
+    font-family: NeutralFace;
+    src: url(fonts/NeutralFace.otf); }

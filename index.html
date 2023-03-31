@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <meta name="viewport" content="width=device-width">
+
+    <title>KKL</title>
+    <link rel="stylesheet" href="style.css">
+    <style media="screen">
+    html {
+      width: 100vw;
+      overflow-x: hidden;
+    }
+    body {
+      /* cursor: url("images/cursor.svg") 16 0,auto; */
+      height: 790vh;
+      width: 100vw;
+      overflow-x: hidden;
+      background-color: inherit;
+    }
+    div {
+
+    }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script/slick.min.js"></script>
+    <script type="text/javascript"></script>
+    <!-- <script>  function slider()
+    {document.getElementById("slider").style.display = "block";}
+    </script> -->
+    </head>
+
+  <body>
+
+    <section class = "one" id="one">
+      <main id="main">
+        <div class="content" id="content">
+          <img class="content__img" src="images/1.svg" />
+          <img class="content__img" src="images/2.svg" />
+          <img class="content__img" src="images/paws.svg" />
+          <img class="content__img" src="images/chicken.svg" />
+        </div>
+      </main>
+      <div class="ellipse"></div>
+      <div class="ellipsewhite"></div>
+      <div class="text">
+        <div class="left_top">
+          <h1><a href="https://portfolio.hse.ru/Student/19926"> как курица лапой </a></h1>
+        </div>
+        <div class="left_bottom">
+          <h1> 2023 </h1>
+        </div> <div class="right_bottom">
+          <h1> <a href="https://dribbble.com/Kudravaja">dribbble</a>
+            <a href="https://www.behance.net/kudravaja">behance </a>
+            <a href="https://www.instagram.com/kudravaja_/">instagram </a>
+          </h1>
+        </div> <div class="right_top">
+          <h1> @kudravaja </h1>
+        </div>
+      </div>
+      <button id="close" class="close"></button>
+      <div class = "slider" id="slider">
+        <div class="image101">
+            <div id="chicken"></div>
+        </div>
+        <div class="image102">
+          <div id="chicken2"></div>
+        </div>
+        <div class="image103">
+          <div id="chicken3"></div>
+        </div>
+        <div class="image104">
+          <div id="chicken4">
+            <p>любая клавиша на клавиатуре поможет выбрать фон для рисунка</p>
+          </div>
+        </div>
+        <div class="image123">
+          <div id="chicken9">
+            <h1>закрасьте этот холст <br>с помощью следующего</h1>
+          </div>
+        </div>
+        <div class="image105">
+          <div id="chicken5"></div>
+        </div>
+        <div class="image106">
+          <div id="chicken6"></div>
+        </div>
+        <div class="image107">
+            <div id="chicken7"></div>
+            <h2>Нажми чтобы убрать лишний текст.</h2>
+            <h2>Убери меня.</h2>
+            <h2>Это тоже надо убрать.</h2>
+            <h2>Не забудь про меня.</h2>
+            <h2>Почти все.</h2>
+        </div>
+        <div class="image108">
+          -
+        </div>
+        <div class="image109">
+          <ul id="sortable">
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/1.svg" alt="chicken"></li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/2.svg" alt="chicken"></li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/3.svg" alt="chicken"></li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/4.svg" alt="chicken"></li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/5.svg" alt="chicken"></li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/6.svg" alt="chicken"></li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/7.svg" alt="chicken"></li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/8.svg" alt="chicken"></li>
+              <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><img src = "images/chicken/9.svg" alt="chicken"></li>
+
+        </div>
+        <div class="image120">
+          <h2>Выберите любимый цвет:</h2>
+         <input type="color" id="colorpicker" value="#0000ff">
+         <div id="chicken1"></div>
+        </div>
+        <div class="image121">
+          -
+        </div>
+        <div class="image122">
+          <div id="chicken8"></div>
+        </div>
+        <div class="image124">
+          <div id="chicken10"></div>
+        </div>
+        <div class="image125">
+          <div id="chicken11"></div>
+        </div>
+        <div class="image126">
+          <div id="chicken12"></div>
+        </div>
+      </div>
+      <div id="myP">
+      </div>
+      <div class="background"></div>
+    </section>
+    <!-- <div class ="t"> </div> -->
+    <section class = "two" id ="two">
+      <!-- <div class="image1"></div> -->
+      <!-- <div class="image2"></div>
+      <div class="image3"></div> -->
+      <div class="i"></div>
+      <!-- <div id="image1"> -->
+        <!-- <img src = "images/chickenextrude.svg" alt="chicken_click_paints">
+        <img src = "images/paint1.svg" alt="chicken_click_paints">
+        <img src = "images/paint2.svg" alt="chicken_click_paints">
+        <img src = "images/paint3.svg" alt="chicken_click_paints">
+        <img src = "images/paint4.svg" alt="chicken_click_paints"> -->
+      <!-- </div> -->
+
+      <!-- <div id="image1"></div>
+      <div id="image2"></div>
+      <div id="image3"></div>
+      <div id="image4"></div> -->
+
+      <!-- слои картинок -->
+    <!-- 1 слой  z-index:25 -->
+          <div class="image1"></div>
+          <div class="image2"></div>
+          <div class="image3" id = "image3"></div>
+          <div class="image4" id = "image4"></div>
+
+          <div class="image5" id = "image5"></div>
+          <div class="image6"></div>
+          <div class="image7"></div>
+    <!-- 3 слой  z-index:23-->
+          <div class="image8"></div>
+          <div class="image9"></div>
+          <div class="image10"></div>
+          <div class="image11"></div>
+
+          <div class="image12"></div>
+          <div class="image13"></div>
+          <div class="image14"></div>
+    <!-- 5 слой  z-index:21-->
+          <div class="image15"></div>
+          <div class="image16"></div>
+          <div class="image17"></div>
+          <div class="image18"></div>
+          <div class="image19"></div>
+
+          <div class="image20"></div>
+          <div class="image21"></div>
+          <div class="image22"></div>
+          <div class="image23"></div>
+          <div class="image24"></div>
+
+          <div class="image25"></div>
+          <div class="image26"></div>
+          <div class="image27"></div>
+
+          <div class="image28"></div>
+          <div class="image29"></div>
+
+          <div class="image30"></div>
+          <div class="image31"></div>
+          <div class="image32"></div>
+          <div class="image33"></div>
+    <!-- 10 слой z-index: 16-->
+          <div class="image34"></div>
+          <div class="image35"></div>
+          <div class="image36"></div>
+
+          <div class="image37"></div>
+          <div class="image38"></div>
+          <div class="image39"></div>
+
+          <div class="image40"></div>
+          <div class="image41"></div>
+          <div class="image42"></div>
+
+          <div class="image43"></div>
+          <div class="image44"></div>
+          <div class="image45"></div>
+          <div class="image46"></div>
+          <div class="image47"></div>
+
+          <div class="image48"></div>
+          <div class="image49"></div>
+          <div class="image50"></div>
+          <div class="image51"></div>
+    <!-- 15 слой  z-index:12 -->
+          <div class="image52"></div>
+          <div class="image53"></div>
+          <div class="image54"></div>
+
+          <div class="image55"></div>
+          <div class="image56"></div>
+          <div class="image57"></div>
+          <div class="image58"></div>
+    <!-- 17 слой  z-index: 10-->
+          <div class="image59"></div>
+          <div class="image60"></div>
+          <div class="image61"></div>
+          <div class="image62"></div>
+          <div class="image63"></div>
+
+          <div class="image64"></div>
+          <div class="image65"></div>
+
+          <div class="image66"></div>
+          <div class="image67"></div>
+          <div class="image68"></div>
+          <div class="image69"></div>
+    <!-- 20 слой  z-index: 7-->
+          <div class="image70"></div>
+          <div class="image71"></div>
+          <div class="image72"></div>
+
+          <div class="image73"></div>
+          <div class="image74"></div>
+          <div class="image75"></div>
+          <div class="image76"></div>
+
+          <div class="image77"></div>
+          <div class="image78"></div>
+          <div class="image79"></div>
+          <div class="image80"></div>
+
+          <div class="image81"></div>
+          <div class="image82"></div>
+          <div class="image83"></div>
+
+          <div class="image84"></div>
+          <div class="image85"></div>
+          <div class="image86"></div>
+          <div class="image87"></div>
+          <div class="image88"></div>
+
+          <div class="image89"></div>
+          <div class="image90"></div>
+          <div class="image91"></div>
+          <div class="image92"></div>
+          <div class="image93"></div>
+          <div class="image94"></div>
+          <div class="image95"></div>
+    <!-- 23 слой  z-index: 26-->
+          <div class="image96"></div>
+          <div class="image97"></div>
+          <div class="image98"></div>
+          <div class="image99"></div>
+          <div class="image100"></div>
+
+          <div class="text2"> <p>поздравляем, вы пролистали полностью всю галерею,</p></div>
+          <div class="text3"> <p>которую курицы создавали за время учебы в школе,</p></div>
+          <div class="text4"> <p>теперь остается только оставить контакты дизайнера</p></div>
+
+        </section>
+        <section class = "three" id="three">
+        </section>
+        <section class = "four" id="four">
+          <div class ="footer">
+           <p>instagram</p>
+           <p>telegram</p>
+           <p>dribbble</p>
+           <p>behance</p>
+           <p>gmail</p>
+           <p>dribbble</p>
+           <p>behance</p>
+           <p>gmail</p>
+          </div>
+          <div class="fill"><img src="images/kudravaja.svg" alt="nick"></div>
+          <div class="line"><img src="images/kudravajaLine.svg" alt="nickline"></div>
+          <div class="trail" id="trail">
+            <img src="images/pawButton.svg" alt="nick">
+            <h3> нажмите чтобы быстро просмотреть галерею </h3>
+          </div>
+        </section>
+
+        <script src="script/imagesloaded.pkgd.min.js"></script>
+        <script src="script/TweenMax.min.js"></script>
+        <script src="script/testscript.js"></script>
+
+  <script src="sketch.js"></script>
+</body>
+</html>
