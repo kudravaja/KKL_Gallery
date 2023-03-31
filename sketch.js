@@ -1518,23 +1518,23 @@ document.getElementById("image82").onclick = function() {slider()};
 document.getElementById("image83").onclick = function() {slider()};
 document.getElementById("image84").onclick = function() {slider()};
 document.getElementById("image85").onclick = function() {slider()};
-// document.getElementById("image86").onclick = function() {slider()};
-// document.getElementById("image87").onclick = function() {slider()};
-// document.getElementById("image88").onclick = function() {slider()};
-// document.getElementById("image89").onclick = function() {slider()};
-// document.getElementById("image90").onclick = function() {slider()};
-// document.getElementById("image91").onclick = function() {slider()};
-// document.getElementById("image92").onclick = function() {slider()};
-// document.getElementById("image93").onclick = function() {slider()};
-// document.getElementById("image94").onclick = function() {slider()};
-// document.getElementById("image95").onclick = function() {slider()};
-// document.getElementById("image96").onclick = function() {slider()};
-// document.getElementById("image97").onclick = function() {slider()};
-// document.getElementById("image98").onclick = function() {slider()};
-// document.getElementById("image99").onclick = function() {slider()};
+document.getElementById("image86").onclick = function() {slider()};
+document.getElementById("image87").onclick = function() {slider()};
+document.getElementById("image88").onclick = function() {slider()};
+document.getElementById("image89").onclick = function() {slider()};
+document.getElementById("image90").onclick = function() {slider()};
+document.getElementById("image91").onclick = function() {slider()};
+document.getElementById("image92").onclick = function() {slider()};
+document.getElementById("image93").onclick = function() {slider()};
+document.getElementById("image94").onclick = function() {slider()};
+document.getElementById("image95").onclick = function() {slider()};
+document.getElementById("image96").onclick = function() {slider()};
+document.getElementById("image97").onclick = function() {slider()};
+document.getElementById("image98").onclick = function() {slider()};
+document.getElementById("image99").onclick = function() {slider()};
 // document.getElementById("image100").onclick = function() {slider()};
-// document.getElementById("image101").onclick = function() {slider()};
-//
+// // document.getElementById("image101").onclick = function() {slider()};
+// //
 
 function slider() {
   document.getElementById("slider").style.display = "block";
