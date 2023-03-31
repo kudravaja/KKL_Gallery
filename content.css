@@ -69,8 +69,8 @@ body {
     font-family: 'NeutralFace';
     font-size: 1.5vw;
     text-align: right;
-    left: 87vw;
-    top: 87vh;
+    left: 90vw;
+    top: 86vh;
     color: #000000;
     position: fixed;
     transition: 0.5s;
@@ -1453,7 +1453,7 @@ body {
     z-index: 26;
     height: 11vw;
     width: 11vw;
-    background-image: url(45/1.svg);
+    background-image: url(images/45.svg);
     background-repeat: no-repeat;
     transition: 0.26s;
     opacity: 0;
@@ -1747,7 +1747,7 @@ body {
     width: 4vw;
     height: 4vw;
     background-color: #ffffff;
-    z-index: 101;
+    z-index: 110;
     background-image: url(images/close.svg);
     background-size: 2vw;
     background-position: center;
@@ -1965,10 +1965,10 @@ body {
 
   .footer{
   z-index: 80;
-  left:5vw;
+  left:1vw;
   position: relative;
   top:160vh;
-  width: 90vw;
+  width: 98vw;
   height: 3vw;
   overflow-x: hidden;
   display: flex;
@@ -1976,11 +1976,12 @@ body {
   align-items: flex-end;}
 
   .four p {
+    left: 1vw;
     position: relative;
     color: black;
     font-family: 'NeutralFace';
-    font-size: 1.5vw;
-    width: 25vw;}
+    font-size: 1.4vw;
+    width:auto;}
 
 .fill{
   position: absolute;
@@ -2009,11 +2010,11 @@ body {
 }
 
 h3{
-  top: 6vh;
+  top: 10vh;
   position: relative;
   color: black;
   font-family: 'NeutralFace';
-  font-size: 1.5vw;
+  font-size: 2vw;
   color: #FC565D;
 }
 .trail img{
