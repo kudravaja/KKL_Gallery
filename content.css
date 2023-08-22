@@ -1988,7 +1988,7 @@ body {
   width: 98vw;
   left:1vw;
   top: 133vh;
-  z-index: 2;
+  z-index: 1;
 }
 .line{
   position: absolute;
